@@ -1,11 +1,10 @@
 # SIMPLE_API
 
-py -3 -m venv .venv
-.venv\scripts\activate
+1. py -3 -m venv .venv
+2. .venv\scripts\activate
 
-python -m pip install --upgrade pip
-pip install fastapi
-pip install "uvicorn[standard]"
+3. python -m pip install --upgrade pip
+4. pip install fastapi
+5. pip install "uvicorn[standard]"
 
-TO RUN:
-uvicorn main:app --reload
+6. RUN: uvicorn main:app --reload
