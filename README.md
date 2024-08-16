@@ -8,3 +8,5 @@
 5. pip install "uvicorn[standard]"
 
 6. RUN: uvicorn main:app --reload
+
+7. uvicorn main:app --host 0.0.0.0 --port 10000
